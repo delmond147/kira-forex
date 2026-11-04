@@ -1,0 +1,345 @@
+{
+  "site_settings": {
+    "site_title": "KIRAFOREX — Trading Academy & Digital Platform",
+    "hero_badge": "",
+    "hero_headline": "Master the Financial Markets with Precision & Discipline",
+    "hero_subheadline": "Institutional trading education, proven risk management tools, and an empowering community built for serious traders.",
+    "about_snippet": "Led by Kira, CEO of Kiraforex Trading Academy and Founder of Africa's Female Forex Traders, our platform equips aspiring and advancing traders with market structure mastery, rigorous risk-to-reward frameworks, and real-time community mentorship.",
+    "primary_telegram_url": "https://t.me/kira_forex",
+    "synthetics_telegram_url": "https://t.me/kiraforexsynth",
+    "deriv_partner_url": "https://t.deriv.link/?t=642J9K6PYXX5",
+    "youtube_url": "https://youtube.com/@kiraforexgh?si=9Jb8w2JXp1lYrF6U",
+    "whatsapp_general_url": "https://wa.me/message/WELLF6ZJDKQXA1",
+    "whatsapp_phone": "+233 502 75 8608",
+    "call_phone": "+233 594 86 2521",
+    "facebook_url": "https://web.facebook.com/profile.php?id=61585879264537",
+    "instagram_url": "https://www.instagram.com/kira_forex?exln=aWF0dzNodmpwcTc5",
+    "hero_image_url": "/kira_forex_portrait_transparent.png",
+    "hero_btn1_text": "Join Telegram Community",
+    "hero_btn2_text": "Open a Deriv Account",
+    "hero_btn2_url": "https://track.deriv.com/_eBEGHBqxmKyDrNOKR4fSNGNd7ZgqdRLk/1/",
+    "hero_stat1_val": "100%",
+    "hero_stat1_lbl": "Pure Price Action",
+    "hero_stat2_val": "24/7",
+    "hero_stat2_lbl": "Deriv Synthetics",
+    "hero_stat3_val": "Zero",
+    "hero_stat3_lbl": "Guaranteed Hype",
+    "about_badge": "Founder & Leader",
+    "about_heading": "Empowering the Next Generation of African Traders",
+    "about_point1": "CEO of KIRAFOREX TRADING ACADEMY",
+    "about_point2": "Founder of AFRICA'S FEMALE FOREX TRADERS",
+    "about_point3": "Certified Deriv Synthetics & Price Action Specialist",
+    "philosophy_title": "The Kiraforex Core Philosophy",
+    "philosophy_quote": "Trading is not a lottery or an overnight fortune. It is an intellectual discipline governed by asymmetric risk-to-reward ratios, deep understanding of liquidity pools, and unmatched emotional control.",
+    "philosophy_author": "Kira",
+    "philosophy_author_title": "Lead Mentor & Founder",
+    "programs_heading": "Structured Education Built for Mastery",
+    "events_heading": "Live Events, Webinars & Workshops",
+    "youtube_heading": "Latest Market Breakdowns & Lessons",
+    "youtube_btn_text": "View All Videos on YouTube",
+    "community_heading": "Join Official KIRAFOREX Community",
+    "community_subheading": "Connect with like-minded traders, receive live educational trade breakdowns, and stay updated on our upcoming academy workshops.",
+    "community_btn1_text": "Join General Telegram (Primary)",
+    "community_btn2_text": "Join Synthetics Telegram",
+    "font_heading": "Poppins",
+    "font_body": "DM Sans",
+    "font_scale": "0.95",
+    "theme_mode": "light",
+    "brand_accent_color": "#10B981",
+    "theme_bg_color": "#FFFFFF"
+  },
+  "events": [
+    {
+      "id": "e0000000-0000-0000-0000-000000000001",
+      "title": "Beginner Forex Trading Class",
+      "slug": "beginner-forex-trading-class-nov-5",
+      "short_description": "Join our Beginner Class and learn the fundamentals of Forex trading from scratch.",
+      "full_description": "Ready to start your trading journey? Join Kiraforex Trading Academy for an intensive live training session tailored specifically for beginners. You will master candlestick reading, currency pair mechanics, trading platform navigation (MT5 & TradingView), position sizing, and how to execute high-probability trade setups with iron-clad risk management.",
+      "thumbnail_url": "/events/beginner_class_event_flyer.jpg",
+      "start_date": "2026-11-05T08:00:00.000Z",
+      "end_date": "2026-11-05T13:00:00Z",
+      "expiry_date": "2026-12-20T22:59:00.000Z",
+      "time_zone": "GMT / UTC",
+      "venue_type": "Online (Live Interactive Masterclass)",
+      "location_or_link": "Private Academy Virtual Room & WhatsApp Class Group",
+      "price_amount": 50,
+      "price_currency": "USD",
+      "booking_whatsapp": "+233 502 75 8608",
+      "booking_call": "+233 594 86 2521",
+      "booking_url": "https://wa.me/233502758608?text=Hello%20KiraForex,%20I%20would%20like%20to%20register%20for%20the%20Beginner%20Forex%20Trading%20Class%20(USD%2050.00)",
+      "status": "published",
+      "created_at": "2026-10-31T06:00:00Z",
+      "updated_at": "2026-10-31T10:19:54.223Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "s0000000-0000-0000-0000-000000000001",
+      "title": "Beginners Master Class",
+      "category": "Foundational Course",
+      "slug": "forex-foundations-bootcamp",
+      "short_description": "Comprehensive step-by-step curriculum taking beginners from zero to executing independent, rule-based trades.",
+      "full_description": "Our cornerstone foundational course engineered for individuals entering the financial markets. Learn how foreign exchange rates fluctuate, how to master MetaTrader 5, calculate correct lot sizing, and preserve your trading capital using institutional risk formulas.",
+      "icon": "BookOpen",
+      "price_amount": 50,
+      "price_currency": "USD",
+      "delivery_format": "Live Online Masterclass & Video Vault",
+      "duration": "4 Weeks",
+      "features": [
+        "Forex Basics & Currency Pairs",
+        "Platform Mastery (MT5 & TradingView)",
+        "Strict Risk Management Rules",
+        "Live Q&A Sessions",
+        "Certificate of Completion"
+      ],
+      "cta_text": "Secure Your Spot",
+      "cta_whatsapp_message": "Hi Kira, I want to enroll in the Forex Foundations Bootcamp.",
+      "status": "published",
+      "display_order": 1
+    },
+    {
+      "id": "s0000000-0000-0000-0000-000000000002",
+      "title": "Deriv Synthetics Mastery",
+      "category": "Synthetics Specialization",
+      "slug": "deriv-synthetics-mastery",
+      "short_description": "Specialized technical training on trading Volatility Indices, Boom, Crash, and Step Index 24/7 without fundamental news interference.",
+      "full_description": "Learn how to capitalize on synthetic markets that run 24 hours a day, 7 days a week. We teach you pure price action, spike-catching methodologies for Boom & Crash, and trend continuation strategies on Volatility 75/100 indices using our official Deriv partner framework.",
+      "icon": "TrendingUp",
+      "price_amount": 150,
+      "price_currency": "USD",
+      "delivery_format": "Intensive Workshop + Community Access",
+      "duration": "6 Weeks",
+      "features": [
+        "Boom & Crash Spike Dynamics",
+        "Volatility Index Patterns",
+        "Deriv Platform Optimization",
+        "Synthetics Community Access",
+        "Risk-Control Protocols"
+      ],
+      "cta_text": "Join Synthetics Masterclass",
+      "cta_whatsapp_message": "Hi Kira, I want to join the Deriv Synthetics Mastery Course.",
+      "status": "published",
+      "display_order": 2
+    },
+    {
+      "id": "s0000000-0000-0000-0000-000000000003",
+      "title": "1-on-1 VIP Mentorship",
+      "category": "Private Coaching",
+      "slug": "vip-private-mentorship",
+      "short_description": "Direct personalized guidance with Kira tailored to your individual psychology, trading style, and growth goals.",
+      "full_description": "Accelerate your path with direct, high-touch coaching. Kira personally reviews your trade journals, audits your setup confirmation, addresses emotional hurdles, and tailors a custom trading plan designed for funded accounts and consistent capital compounding.",
+      "icon": "Crown",
+      "price_amount": 350,
+      "price_currency": "USD",
+      "delivery_format": "Private Weekly 1-on-1 Video Calls",
+      "duration": "3 Months",
+      "features": [
+        "Personalized Trading Plan",
+        "Weekly 1-on-1 Deep-Dive Sessions",
+        "Trade Journal & Psychology Audits",
+        "Direct WhatsApp Hotline",
+        "Lifetime Community VIP Status"
+      ],
+      "cta_text": "Apply for Mentorship",
+      "cta_whatsapp_message": "Hi Kira, I am applying for the 1-on-1 VIP Mentorship Program.",
+      "status": "published",
+      "display_order": 3
+    }
+  ],
+  "youtube_videos": [
+    {
+      "id": "vid_01",
+      "videoId": "9Jb8w2JXp1lYrF6U_1",
+      "title": "Forex Risk Management: How to Calculate Lot Size Like a Pro",
+      "publishedAt": "2026-10-24T14:30:00Z",
+      "thumbnailUrl": "/kira_forex_founder.jpg",
+      "videoUrl": "https://youtube.com/@kiraforexgh?si=9Jb8w2JXp1lYrF6U"
+    },
+    {
+      "id": "vid_02",
+      "videoId": "9Jb8w2JXp1lYrF6U_2",
+      "title": "Mastering Deriv Synthetics: Boom and Crash Price Action Explained",
+      "publishedAt": "2026-10-18T16:00:00Z",
+      "thumbnailUrl": "/kira_forex_founder.jpg",
+      "videoUrl": "https://youtube.com/@kiraforexgh?si=9Jb8w2JXp1lYrF6U"
+    },
+    {
+      "id": "vid_03",
+      "videoId": "9Jb8w2JXp1lYrF6U_3",
+      "title": "The Trader's Mindset: Overcoming Emotional Traps in the Market",
+      "publishedAt": "2026-10-10T12:00:00Z",
+      "thumbnailUrl": "/kira_forex_founder.jpg",
+      "videoUrl": "https://youtube.com/@kiraforexgh?si=9Jb8w2JXp1lYrF6U"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "enq_01",
+      "full_name": "Samuel Mensah",
+      "email": "mensah.samuel@example.com",
+      "phone": "+233 24 112 3456",
+      "service_interest": "Forex Foundations Bootcamp",
+      "message": "Hi Kira, I want to know if the beginner class has weekend schedules.",
+      "status": "contacted",
+      "created_at": "2026-10-30T10:15:00Z"
+    },
+    {
+      "id": "enq_02",
+      "full_name": "Abena Osei",
+      "email": "abena.osei@gmail.com",
+      "phone": "+233 55 980 4321",
+      "service_interest": "1-on-1 VIP Mentorship",
+      "message": "Hello Kira, I've been trading for 1 year and want direct mentorship to pass a prop firm challenge.",
+      "status": "enrolled",
+      "created_at": "2026-10-29T14:40:00Z"
+    },
+    {
+      "id": "enq_03",
+      "full_name": "David Kweku",
+      "email": "dkweku@outlook.com",
+      "phone": "+233 20 443 8910",
+      "service_interest": "Deriv Synthetics Mastery",
+      "message": "Interested in trading Volatility 75 indices full time. What are the class times?",
+      "status": "new",
+      "created_at": "2026-10-31T08:20:00Z"
+    },
+    {
+      "id": "enq_04",
+      "full_name": "Eunice Boateng",
+      "email": "eunice.b@yahoo.com",
+      "phone": "+233 50 119 2837",
+      "service_interest": "Beginner Forex Trading Class",
+      "message": "I saw your flyer for the Nov 5th session. How do I pay via Mobile Money?",
+      "status": "new",
+      "created_at": "2026-10-31T09:10:00Z"
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "act_1793776993225",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-04T07:23:13.225Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793774329080",
+      "action": "Lead Deleted",
+      "detail": "Delmond Bongha (Beginners Master Class) removed",
+      "timestamp": "2026-11-04T06:38:49.080Z",
+      "type": "lead"
+    },
+    {
+      "id": "act_1793774157973",
+      "action": "New Lead Captured",
+      "detail": "Delmond Bongha enquired about 'Beginners Master Class'",
+      "timestamp": "2026-11-04T06:35:57.973Z",
+      "type": "lead"
+    },
+    {
+      "id": "act_1793773743569",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-04T06:29:03.569Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793773680109",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-04T06:28:00.109Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793753092579",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-04T00:44:52.579Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793753045040",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-04T00:44:05.040Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793743822148",
+      "action": "Program Deleted",
+      "detail": "Removed 'VIP 1-on-1 Prop Firm Passing Mentorship'",
+      "timestamp": "2026-11-03T22:10:22.148Z",
+      "type": "program"
+    },
+    {
+      "id": "act_1793739153286",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-03T20:52:33.286Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793736881128",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-03T20:14:41.128Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793442048116",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-10-31T10:20:48.116Z",
+      "type": "settings"
+    },
+    {
+      "id": "act_1793441994223",
+      "action": "Event Updated",
+      "detail": "Updated event 'Beginner Forex Trading Class'",
+      "timestamp": "2026-10-31T10:19:54.223Z",
+      "type": "event"
+    },
+    {
+      "id": "act_1793441846016",
+      "action": "Program Updated",
+      "detail": "Modified 'Beginners Master Class'",
+      "timestamp": "2026-10-31T10:17:26.016Z",
+      "type": "program"
+    },
+    {
+      "id": "act_1793440450838",
+      "action": "Program Created",
+      "detail": "Added 'VIP 1-on-1 Prop Firm Passing Mentorship' (Private Coaching)",
+      "timestamp": "2026-10-31T09:54:10.838Z",
+      "type": "program"
+    },
+    {
+      "id": "act_01",
+      "action": "New Student Lead Received",
+      "detail": "Eunice Boateng enquired about 'Beginner Forex Trading Class'",
+      "timestamp": "2026-10-31T09:10:00Z",
+      "type": "lead"
+    },
+    {
+      "id": "act_02",
+      "action": "Lead Enrolled",
+      "detail": "Abena Osei registered for '1-on-1 VIP Mentorship'",
+      "timestamp": "2026-10-30T16:00:00Z",
+      "type": "enrollment"
+    },
+    {
+      "id": "act_03",
+      "action": "Event Published",
+      "detail": "Beginner Forex Trading Class (5th Nov) published live",
+      "timestamp": "2026-10-30T12:00:00Z",
+      "type": "event"
+    },
+    {
+      "id": "act_04",
+      "action": "Program Updated",
+      "detail": "Deriv Synthetics Mastery curriculum updated",
+      "timestamp": "2026-10-29T11:30:00Z",
+      "type": "program"
+    }
+  ]
+}
