@@ -12,7 +12,10 @@ export function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="relative w-11 h-11 rounded-full overflow-hidden border border-neutral-200 bg-white p-0.5">
+              <div 
+                style={{ position: 'relative' }} 
+                className="relative w-11 h-11 rounded-full overflow-hidden border border-neutral-200 bg-white p-0.5"
+              >
                 <Image 
                   src="/kira_academy_logo.jpg" 
                   alt="Kiraforex Trading Academy" 

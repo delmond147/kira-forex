@@ -101,7 +101,10 @@ export function YouTubeSection({
                 className="group flex flex-col bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-subtle hover:shadow-card hover:border-forest-500 transition-all duration-300"
               >
                 {/* 16:9 Thumbnail Container */}
-                <div className="relative aspect-video w-full overflow-hidden bg-neutral-900">
+                <div 
+                  style={{ position: 'relative' }} 
+                  className="relative aspect-video w-full overflow-hidden bg-neutral-900"
+                >
                   <Image
                     src={video.thumbnailUrl}
                     alt={video.title}

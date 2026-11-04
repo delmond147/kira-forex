@@ -19,7 +19,10 @@ export function Header({ primaryTelegramUrl = 'https://t.me/kira_forex' }: Heade
           
           {/* Logo & Brand Name */}
           <Link href="/" className="flex items-center gap-3.5 group">
-            <div className="relative w-12 h-12 rounded-full overflow-hidden border border-neutral-200 shadow-sm bg-white p-0.5 group-hover:border-forest-700 transition">
+            <div 
+              style={{ position: 'relative' }} 
+              className="relative w-12 h-12 rounded-full overflow-hidden border border-neutral-200 shadow-sm bg-white p-0.5 group-hover:border-forest-700 transition"
+            >
               <Image 
                 src="/kira_academy_logo.jpg" 
                 alt="Kiraforex Trading Academy Logo" 

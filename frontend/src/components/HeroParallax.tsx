@@ -71,7 +71,10 @@ export function HeroParallax({ portraitSrc = '/kira_forex_portrait_transparent.p
       <div className="absolute inset-8 rounded-full border border-forest-200/60 -z-10" />
 
       {/* Dominant Founder Portrait */}
-      <div className="relative w-[90%] h-[90%] flex items-end justify-center">
+      <div 
+        style={{ position: 'relative' }} 
+        className="relative w-[90%] h-[90%] flex items-end justify-center"
+      >
         <Image
           src={portraitSrc}
           alt="Kira — Founder of Kiraforex Trading Academy & Africa's Female Forex Traders"

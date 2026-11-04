@@ -52,7 +52,10 @@ export function EventCard({ event }: EventCardProps) {
         MANDATORY UNIFORM DEFAULT ASPECT RATIO MATCHING FLYER (818:1024 / 4:5 Portrait)
         Displays the full event photo without cropping any top or bottom details.
       */}
-      <div className="relative w-full aspect-[818/1024] bg-neutral-900/5 overflow-hidden border-b border-neutral-100 flex items-center justify-center">
+      <div 
+        style={{ position: 'relative' }} 
+        className="relative w-full aspect-[818/1024] bg-neutral-900/5 overflow-hidden border-b border-neutral-100 flex items-center justify-center"
+      >
         <Image
           src={event.thumbnail_url || '/events/beginner_class_event_flyer.jpg'}
           alt={event.title}
