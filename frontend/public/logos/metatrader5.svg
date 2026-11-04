@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="22" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- MetaTrader 5 Official 3-Ring Triad with Central 5 -->
+  <g transform="translate(15, 15) scale(0.7)">
+    <!-- Red circle ring top -->
+    <circle cx="50" cy="28" r="22" fill="none" stroke="#E53935" stroke-width="8"/>
+    <!-- Blue circle ring right -->
+    <circle cx="68" cy="62" r="22" fill="none" stroke="#1E88E5" stroke-width="8"/>
+    <!-- Green circle ring left -->
+    <circle cx="32" cy="62" r="22" fill="none" stroke="#43A047" stroke-width="8"/>
+    <!-- Central interlocking number 5 -->
+    <text x="50" y="58" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#1E293B" text-anchor="middle" dominant-baseline="middle">5</text>
+  </g>
+</svg>

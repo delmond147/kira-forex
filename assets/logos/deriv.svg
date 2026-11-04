@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="22" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- Official Deriv Coral Red Geometric Symbol -->
+  <g transform="translate(14, 16)">
+    <!-- Red coral upper fold -->
+    <path d="M0 12 C0 5.37 5.37 0 12 0 L40 0 C57.67 0 72 14.33 72 32 C72 49.67 57.67 64 40 64 L12 64 C5.37 64 0 58.63 0 52 Z" fill="#FF444F"/>
+    <!-- Inner cut shaping the stylized D -->
+    <path d="M22 18 L38 18 C46 18 52 24 52 32 C52 40 46 46 38 46 L22 46 Z" fill="#FFFFFF"/>
+    <!-- Angular cut accent -->
+    <path d="M14 30 L32 18 L24 46 Z" fill="#E31C24" opacity="0.3"/>
+  </g>
+</svg>

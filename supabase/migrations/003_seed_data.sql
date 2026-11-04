@@ -1,0 +1,155 @@
+-- ==============================================================================
+-- KIRAFOREX DIGITAL PLATFORM — INITIAL SEED DATA (003_seed_data.sql)
+-- ==============================================================================
+
+-- 1. SEED GLOBAL SITE SETTINGS
+INSERT INTO public.site_settings (
+    id,
+    site_title,
+    hero_badge,
+    hero_headline,
+    hero_subheadline,
+    about_snippet,
+    primary_telegram_url,
+    synthetics_telegram_url,
+    deriv_partner_url,
+    youtube_url,
+    whatsapp_general_url,
+    whatsapp_phone,
+    call_phone,
+    facebook_url,
+    instagram_url
+) VALUES (
+    'global',
+    'KIRAFOREX — Trading Academy & Digital Platform',
+    'KIRAFOREX TRADING ACADEMY',
+    'Master the Financial Markets with Precision & Discipline',
+    'Institutional trading education, proven risk management tools, and an empowering community built for serious traders.',
+    'Led by Kira — CEO of Kiraforex Trading Academy and Founder of Africa''s Female Forex Traders — our platform equips aspiring and advancing traders with market structure mastery, rigorous risk-to-reward frameworks, and real-time community mentorship.',
+    'https://t.me/kira_forex',
+    'https://t.me/kiraforexsynth',
+    'https://t.deriv.link/?t=642J9K6PYXX5',
+    'https://youtube.com/@kiraforexgh?si=9Jb8w2JXp1lYrF6U',
+    'https://wa.me/message/WELLF6ZJDKQXA1',
+    '+233 502 75 8608',
+    '+233 594 86 2521',
+    'https://web.facebook.com/profile.php?id=61585879264537',
+    'https://www.instagram.com/kira_forex?exln=aWF0dzNodmpwcTc5'
+) ON CONFLICT (id) DO UPDATE SET
+    hero_headline = EXCLUDED.hero_headline,
+    primary_telegram_url = EXCLUDED.primary_telegram_url,
+    synthetics_telegram_url = EXCLUDED.synthetics_telegram_url,
+    deriv_partner_url = EXCLUDED.deriv_partner_url,
+    whatsapp_phone = EXCLUDED.whatsapp_phone,
+    call_phone = EXCLUDED.call_phone;
+
+-- 2. SEED NOVERMBER 5TH BEGINNER CLASS (From Flyer Specification)
+INSERT INTO public.events (
+    id,
+    title,
+    slug,
+    short_description,
+    full_description,
+    thumbnail_url,
+    start_date,
+    end_date,
+    expiry_date,
+    time_zone,
+    venue_type,
+    location_or_link,
+    price_amount,
+    price_currency,
+    booking_whatsapp,
+    booking_call,
+    booking_url,
+    status
+) VALUES (
+    'e0000000-0000-0000-0000-000000000001',
+    'Beginner Forex Trading Class',
+    'beginner-forex-trading-class-nov-5',
+    'Join our Beginner Class and learn the fundamentals of Forex trading from scratch.',
+    'Ready to start your trading journey? Join Kiraforex Trading Academy for an intensive live training session tailored specifically for beginners. You will master candlestick reading, currency pair mechanics, trading platform navigation (MT5 & TradingView), position sizing, and how to execute high-probability trade setups with iron-clad risk management.',
+    '/events/beginner_class_event_flyer.jpg',
+    '2026-11-05 09:00:00+00',
+    '2026-11-05 13:00:00+00',
+    '2026-11-05 23:59:59+00',
+    'GMT / UTC',
+    'Online (Live Interactive Masterclass)',
+    'Private Academy Virtual Room & WhatsApp Class Group',
+    50.00,
+    'USD',
+    '+233 502 75 8608',
+    '+233 594 86 2521',
+    'https://wa.me/233502758608?text=Hello%20KiraForex,%20I%20would%20like%20to%20register%20for%20the%20Beginner%20Forex%20Trading%20Class%20(USD%2050.00)',
+    'published'
+) ON CONFLICT (slug) DO NOTHING;
+
+-- 3. SEED ACADEMY SERVICES
+INSERT INTO public.services (
+    id,
+    title,
+    slug,
+    short_description,
+    full_description,
+    icon,
+    price_amount,
+    price_currency,
+    delivery_format,
+    duration,
+    features,
+    cta_text,
+    cta_whatsapp_message,
+    status,
+    display_order
+) VALUES 
+(
+    's0000000-0000-0000-0000-000000000001',
+    'Forex Foundations Bootcamp',
+    'forex-foundations-bootcamp',
+    'Comprehensive step-by-step curriculum taking beginners from zero to executing independent, rule-based trades.',
+    'Our cornerstone foundational course engineered for individuals entering the financial markets. Learn how foreign exchange rates fluctuate, how to master MetaTrader 5, calculate correct lot sizing, and preserve your trading capital using institutional risk formulas.',
+    'BookOpen',
+    99.00,
+    'USD',
+    'Live Online Masterclass & Video Vault',
+    '4 Weeks',
+    '["Forex Basics & Currency Pairs", "Platform Mastery (MT5 & TradingView)", "Strict Risk Management Rules", "Live Q&A Sessions", "Certificate of Completion"]'::jsonb,
+    'Enroll in Bootcamp',
+    'Hi Kira, I want to enroll in the Forex Foundations Bootcamp.',
+    'published',
+    1
+),
+(
+    's0000000-0000-0000-0000-000000000002',
+    'Deriv Synthetics Mastery',
+    'deriv-synthetics-mastery',
+    'Specialized technical training on trading Volatility Indices, Boom, Crash, and Step Index 24/7 without fundamental news interference.',
+    'Learn how to capitalize on synthetic markets that run 24 hours a day, 7 days a week. We teach you pure price action, spike-catching methodologies for Boom & Crash, and trend continuation strategies on Volatility 75/100 indices using our official Deriv partner framework.',
+    'TrendingUp',
+    150.00,
+    'USD',
+    'Intensive Workshop + Community Access',
+    '6 Weeks',
+    '["Boom & Crash Spike Dynamics", "Volatility Index Patterns", "Deriv Platform Optimization", "Synthetics Community Access", "Risk-Control Protocols"]'::jsonb,
+    'Join Synthetics Masterclass',
+    'Hi Kira, I want to join the Deriv Synthetics Mastery Course.',
+    'published',
+    2
+),
+(
+    's0000000-0000-0000-0000-000000000003',
+    '1-on-1 VIP Mentorship',
+    'vip-private-mentorship',
+    'Direct personalized guidance with Kira tailored to your individual psychology, trading style, and growth goals.',
+    'Accelerate your path with direct, high-touch coaching. Kira personally reviews your trade journals, audits your setup confirmation, addresses emotional hurdles, and tailors a custom trading plan designed for funded accounts and consistent capital compounding.',
+    'Crown',
+    350.00,
+    'USD',
+    'Private Weekly 1-on-1 Video Calls',
+    '3 Months',
+    '["Personalized Trading Plan", "Weekly 1-on-1 Deep-Dive Sessions", "Trade Journal & Psychology Audits", "Direct WhatsApp Hotline", "Lifetime Community VIP Status"]'::jsonb,
+    'Apply for Mentorship',
+    'Hi Kira, I am applying for the 1-on-1 VIP Mentorship Program.',
+    'published',
+    3
+) ON CONFLICT (slug) DO NOTHING;

@@ -1,0 +1,22 @@
+{
+  "name": "kiraforex-digital-platform",
+  "version": "1.0.0",
+  "description": "KIRAFOREX Digital Platform & Trading Academy CMS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "forex",
+    "trading",
+    "academy",
+    "deriv",
+    "tradingview"
+  ],
+  "author": "KIRAFOREX",
+  "license": "ISC"
+}
