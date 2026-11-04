@@ -1,15 +1,54 @@
 @echo off
+setlocal enabledelayedexpansion
+title KIRAFOREX DIGITAL PLATFORM - RUNNER
+
 echo ==============================================================================
-echo STARTING KIRAFOREX DIGITAL PLATFORM
+echo                      KIRAFOREX DIGITAL PLATFORM
 echo ==============================================================================
 echo.
-echo [1/2] Public Website will be available at:       http://localhost:3000
-echo [2/2] Private Admin CMS will be available at:    http://localhost:3001
+echo Detecting Node.js runtime environment...
+
+:: 1. Check for standard system Node.js
+where node >nul 2>nul
+if %ERRORLEVEL% equ 0 (
+    set "NODE_CMD=node"
+    goto :FOUND
+)
+
+:: 2. Check for Program Files node.exe
+if exist "C:\Program Files\nodejs\node.exe" (
+    set "NODE_CMD=C:\Program Files\nodejs\node.exe"
+    goto :FOUND
+)
+
+:: 3. Check for bundled agy-node
+if exist "%APPDATA%\Antigravity\bin\agy-node.cmd" (
+    set "NODE_CMD=%APPDATA%\Antigravity\bin\agy-node.cmd"
+    goto :FOUND
+)
+
+:: 4. Fallback to Antigravity embedded runtime
+if exist "%LOCALAPPDATA%\Programs\antigravity\Antigravity.exe" (
+    set ELECTRON_RUN_AS_NODE=1
+    set "NODE_CMD=%LOCALAPPDATA%\Programs\antigravity\Antigravity.exe"
+    goto :FOUND
+)
+
+echo [ERROR] Node.js executable was not found. Please ensure Node.js is installed.
+pause
+exit /b 1
+
+:FOUND
+echo [OK] Using Node.js runtime: !NODE_CMD!
 echo.
-echo Press Ctrl+C at any time to stop the platform.
 echo ==============================================================================
+echo   - Public Website:            http://localhost:3000
+echo   - Private Admin Dashboard:   http://localhost:3001
+echo ==============================================================================
+echo.
+echo Platform is active and listening for requests. Press Ctrl+C to stop.
 echo.
 
-set ELECTRON_RUN_AS_NODE=1
-"C:\Users\bongha\AppData\Local\Programs\antigravity\Antigravity.exe" "%~dp0server.js"
+"!NODE_CMD!" "%~dp0server.js"
+
 pause
