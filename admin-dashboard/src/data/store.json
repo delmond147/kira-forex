@@ -45,7 +45,7 @@
     "font_body": "DM Sans",
     "font_scale": "0.95",
     "theme_mode": "light",
-    "brand_accent_color": "#10B981",
+    "brand_accent_color": "#010e0a",
     "theme_bg_color": "#FFFFFF"
   },
   "events": [
@@ -215,6 +215,13 @@
     }
   ],
   "activity_log": [
+    {
+      "id": "act_1793814865890",
+      "action": "Settings Updated",
+      "detail": "Website brand parameters and copy updated",
+      "timestamp": "2026-11-04T17:54:25.890Z",
+      "type": "settings"
+    },
     {
       "id": "act_1793776993225",
       "action": "Settings Updated",
